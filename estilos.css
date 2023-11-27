@@ -1,0 +1,75 @@
+/* Fondo con gradiente de violeta a amarillo */
+body {
+  background: linear-gradient(to bottom, #8b008b, #ffff00);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Estilos para la tabla */
+table {
+  width: 70%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Fondo semi-transparente blanco */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Estilos para el encabezado de la tabla */
+th {
+  background-color: #ffd700; /* Amarillo */
+  font-weight: bold;
+  color: #8b008b; /* Violeta */
+}
+
+/* Estilos para las filas impares */
+tr:nth-child(odd) {
+  background-color: #ff69b4; /* Rosa */
+}
+
+/* Estilos para las celdas de puntuación */
+td:nth-child(2) {
+  font-weight: bold;
+  color: #007bff; /* Azul */
+}
+
+/* Estilos adicionales para hacerlo amigable para niños */
+h1 {
+  text-align: center;
+  color: #2e022e; /* Violeta */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra suave en el texto */
+  font-family: "Comic Sans MS", cursive, sans-serif; /* Fuente amigable para niños */
+}
+
+/* Estilos para el cuerpo del juego */
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif; /* Fuente amigable para niños */
+}
+
+/* Estilos para los botones (si es necesario) */
+.button {
+  background-color: #ffd700; /* Amarillo */
+  color: #8b008b; /* Violeta */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Comic Sans MS", cursive, sans-serif; /* Fuente amigable para niños */
+}
+
+.button:hover {
+  background-color: #ffff00; /* Amarillo más claro al pasar el mouse */
+}
